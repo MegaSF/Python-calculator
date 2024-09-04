@@ -1,0 +1,25 @@
+#Calculator project
+
+num1 = float(input('Enter numeber one: '))
+num2 = float(input('Enter numeber two: '))
+
+
+
+result1 = num1 - num2
+result2 = num1 + num2
+result3 = num1 ** num2
+result4 = num1 // num2
+
+
+input('Enter action: ')
+if input(1):
+ print(result1)
+elif input(2):
+ print(result2)
+elif input(3):
+ print(result3)
+elif input(4):
+ print(result4)
+
+
+
